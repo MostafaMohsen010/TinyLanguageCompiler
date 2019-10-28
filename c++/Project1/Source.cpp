@@ -11,12 +11,12 @@ using namespace std;
 
 int main() {
 
-	string str = "aa bb cc ;   ;";
-	str.erase(std::remove_if(str.begin(), str.end(), isspace), str.end());
+	//string str = "aabb\ncc ;   ;";
+	//str.erase(std::remove_if(str.begin(), str.end(), isspace), str.end());
 
-	TokenRecord t(IF);
+	//TokenRecord t(IF);
 	
-	cout << str;
+	//cout << str[4]<<" dddddd "<<str[5];
 
 	int d; cin >> d;
 	return 0;
