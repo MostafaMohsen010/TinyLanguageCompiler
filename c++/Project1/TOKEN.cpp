@@ -103,7 +103,7 @@ typedef enum {
 				 case '<': results.push_back(TokenRecord(LESS, "+", NULL)); break;
 				 case ':': if (in[i+1]=='=')  results.push_back(TokenRecord(ASSIGN, ":=", NULL)); 
 						   else /*error*/	break;
-
+				 case '=': results.push_back(TokenRecord(EQUAL, "=", NULL)); break;
 				 case'{':while (true)
 							 {
 								if (in[i] == '}') break;
