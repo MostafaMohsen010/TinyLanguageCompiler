@@ -111,7 +111,8 @@ typedef enum {
 							//	else /* error */ 
 							 } 
 						 break;
-				 case ' ':break;
+				 case ' ':
+				 case '\n':	 break;
 
 				 default: /*error */;
 					 break;
