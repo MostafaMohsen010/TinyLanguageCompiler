@@ -27,7 +27,7 @@ TokenRecord getToken (std::string in , bool &isSuccess )    //Not Tested
     if(in=="WRITE")
         return TokenRecord(WRITE,"WRITE",NULL);
     isSuccess = false;
-    return TokenRecord();
+    return TokenRecord(IDENTIFIER,"IDENTIFIER",NULL);
 }
 bool isNumLetter ( char in )            // Tested [Working]
 {
